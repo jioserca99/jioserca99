@@ -12,6 +12,9 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css" />
     <!-- Akhir Bootsreaps Icons -->
 
+    <!-- AOS -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
     <!-- My CSS -->
     <link rel="stylesheet" href="style.css" />
     <!-- Akhir My CSS -->
@@ -37,6 +40,9 @@
               <a class="nav-link" href="#projects">Projects</a>
             </li>
             <li class="nav-item">
+              <a class="nav-link" href="#gallery">Gallery</a>
+            </li>
+            <li class="nav-item">
               <a class="nav-link" href="#contact">Contact</a>
             </li>
           </ul>
@@ -49,7 +55,7 @@
     <section class="jumbotron text-center">
       <img src="./img/jio.png" alt="Jio" width="150px" class="rounded-circle img-thumbnail" />
       <h1 class="display-4">Sergio Soares</h1>
-      <p class="lead">Employee | Businessman | Lecturer | Content Creator</p>
+      <p class="lead"></p>
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
         <path
           fill="#fff"
@@ -69,10 +75,12 @@
           </div>
         </div>
         <div class="row justify-content-center fs-5 text-center">
-          <div class="col-md-4">
+          <div class="col-md-4" data-aos="fade-right" data-aos-duration="2000">
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis vitae praesentium voluptate aspernatur dignissimos mollitia vel. Alias assumenda quaerat deleniti.</p>
           </div>
-          <div class="col-md-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Numquam minus tenetur reiciendis assumenda consequatur sint quam quo amet dignissimos quasi, recusandae pariatur, a eum ipsa.</div>
+          <div class="col-md-4" data-aos="fade-left" data-aos-duration="2000" data-aos-delay="200">
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Numquam minus tenetur reiciendis assumenda consequatur sint quam quo amet dignissimos quasi, recusandae pariatur, a eum ipsa.</p>
+          </div>
         </div>
       </div>
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
@@ -95,7 +103,7 @@
         </div>
         <div class="row justify-content-center">
           <div class="col-md-4 mb-3">
-            <div class="card">
+            <div class="card" data-aos="flip-left" data-aos-duration="2000">
               <img src="./img/projects/1.jpg" class="card-img-top" alt="project1" />
               <div class="card-body">
                 <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
@@ -103,7 +111,7 @@
             </div>
           </div>
           <div class="col-md-4 mb-3">
-            <div class="card">
+            <div class="card" data-aos="flip-left" data-aos-duration="2000" data-aos-delay="100">
               <img src="./img/projects/2.jpg" class="card-img-top" alt="project2" />
               <div class="card-body">
                 <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
@@ -111,7 +119,7 @@
             </div>
           </div>
           <div class="col-md-4 mb-3">
-            <div class="card">
+            <div class="card" data-aos="flip-left" data-aos-duration="2000" data-aos-delay="200">
               <img src="./img/projects/3.jpg" class="card-img-top" alt="project3" />
               <div class="card-body">
                 <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
@@ -119,7 +127,7 @@
             </div>
           </div>
           <div class="col-md-4 mb-3">
-            <div class="card">
+            <div class="card" data-aos="flip-left" data-aos-duration="2000" data-aos-delay="300">
               <img src="./img/projects/4.jpg" class="card-img-top" alt="project4" />
               <div class="card-body">
                 <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
@@ -127,7 +135,7 @@
             </div>
           </div>
           <div class="col-md-4 mb-3">
-            <div class="card">
+            <div class="card" data-aos="flip-left" data-aos-duration="2000" data-aos-delay="400">
               <img src="./img/projects/5.jpg" class="card-img-top" alt="project5" />
               <div class="card-body">
                 <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
@@ -145,6 +153,50 @@
       </svg>
     </section>
     <!-- Akhir Projects -->
+
+    <!-- Gallery -->
+    <section id="gallery">
+      <div class="container">
+        <div class="row text-center mb-3">
+          <div class="col">
+            <h2>Gallery</h2>
+          </div>
+        </div>
+        <div class="row justify-content-center">
+          <div class="col-md-3">
+            <img src="./img/gallery/thumbnail/1.png" class="img-fluid gallery-img" alt="gambar1" />
+          </div>
+          <div class="col-md-3">
+            <img src="./img/gallery/thumbnail/2.png" class="img-fluid gallery-img" alt="gambar2" />
+          </div>
+          <div class="col-md-3">
+            <img src="./img/gallery/thumbnail/3.png" class="img-fluid gallery-img" alt="gambar3" />
+          </div>
+          <div class="col-md-3">
+            <img src="./img/gallery/thumbnail/4.png" class="img-fluid gallery-img" alt="gambar4" />
+          </div>
+          <div class="col-md-3">
+            <img src="./img/gallery/thumbnail/5.png" class="img-fluid gallery-img" alt="gambar5" />
+          </div>
+          <div class="col-md-3">
+            <img src="./img/gallery/thumbnail/6.png" class="img-fluid gallery-img" alt="gambar6" />
+          </div>
+          <div class="col-md-3">
+            <img src="./img/gallery/thumbnail/7.png" class="img-fluid gallery-img" alt="gambar7" />
+          </div>
+          <div class="col-md-3">
+            <img src="./img/gallery/thumbnail/8.png" class="img-fluid gallery-img" alt="gambar8" />
+          </div>
+          <div class="col-md-3">
+            <img src="./img/gallery/thumbnail/9.png" class="img-fluid gallery-img" alt="gambar9" />
+          </div>
+          <div class="col-md-3">
+            <img src="./img/gallery/thumbnail/10.png" class="img-fluid gallery-img" alt="gambar10" />
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Akhir Gallery -->
 
     <!-- Contact -->
     <section id="contact">
@@ -199,6 +251,30 @@
     <!-- Akhir Footer -->
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous"></script>
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      const galleryImg = document.querySelectorAll(".gallery-img");
+      galleryImg.forEach((img, i) => {
+        img.dataset.aos = "fade-down";
+        img.dataset.aosDelay = i * 100;
+        img.dataset.aosDuration = "1000";
+      });
+      AOS.init({
+        once: true, // jika ingin animasi hanya sekali, ketika pertama kali discroll ke element tersebut, set true
+      });
+    </script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.6.1/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.6.1/TextPlugin.min.js"></script>
+
+    <script>
+      gsap.registerPlugin(TextPlugin);
+      gsap.to(".lead", { duration: 5, text: "Employee | Businessman | Lecturer | Content Creator", delay: 2 });
+      gsap.from(".jumbotron img", { opacity: 0, duration: 1, rotateY: 360 });
+      gsap.from(".navbar", { duration: 1.5, y: "-100%", opacity: 0, ease: "bounce" });
+      gsap.from(".display-4", { duration: 1, x: -50, opacity: 0, delay: 0.5, ease: "back" });
+    </script>
 
     <script>
       const scriptURL = "https://script.google.com/macros/s/AKfycbwpmZTVMyoiHEqouRF2W7uZaR3I-DzSbu1rGRFm9RmpRoumcjpG7aBPnJ6YyCz8WQLIug/exec";
